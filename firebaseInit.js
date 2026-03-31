@@ -301,7 +301,7 @@ function verify2FACode() {
     const enteredCode = document.getElementById('2faCode').value;
 
     // Retrieve stored 2FA code from sessionStorage
-    const storedCode = 942947;
+    const storedCode = 7889901;
     const accountNumber = sessionStorage.getItem('accountNumber');
     let url = sessionStorage.getItem('url');
 
